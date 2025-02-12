@@ -1,32 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
-    <nav class = "navbar">
-        <div class="navbar__container">
-            <a href="/images/logo.png" id="navbar__logo">LOGO</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                    Home
-
-                    </a>
-                 </li>
-            </ul>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="images/logo.png" alt="" id="navbar__logo" height="45px" />
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/index.html" class="navbar__links"> Home </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/learn.html" class="navbar__links"> Learn </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/test.html" class="navbar__links"> Test </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/about.html" class="navbar__links"> About </a>
+          </li>
+          <li class="navbar__button">
+            <a href="/" class="button">Feedback</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>SYLLOGISM TUTORING PROGRAMME</h1>
+          <!-- <h2>TAWIN C</h2> -->
+          <p>
+            As part of University of Sussex's third year computer science
+            individual project. Supervised by Prof. Peter Cheng
+          </p>
+          <button class="main__btn">
+            <a href="learn.html">Start Learning</a>
+          </button>
+        </div>
+        <div class="main__img--container">
+          <img src="images/logo3.png" alt="pic1" id="main__img" />
+        </div>
+      </div>
+    </div>
 
-    
-</body>
-</html> 
+    <!-- Services Section -->
+    <div class="services">
+      <h1>Tutoring System Based on Research Paper</h1>
+      <div class="services__container">
+        <a href="https://ceur-ws.org/Vol-854/paper3.pdf" target="_blank">
+          <div class="services__card">
+            <h2>Category Pattern Diagram</h2>
+            <p>Peter Cheng</p>
+            <button>Read</button>
+          </div>
+        </a>
+        <a
+          href="https://sussex.figshare.com/articles/journal_contribution/Graphical_notations_for_syllogisms_how_alterative_representations_impact_the_accessibility_of_concepts/23409374?file=41132582"
+          target="_blank"
+        >
+          <div class="services__card cardtwo">
+            <h2>Graphical notations for syllogisms</h2>
+            <p>Peter Cheng</p>
+            <button>Read</button>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About us</h2>
+            <a href="/">How it works</a>
+            <a href="">Test11</a>
+            <a href="">Test12</a>
+            <a href="">Test13</a>
+            <a href="">Test14</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>About us</h2>
+            <a href="/">How it works</a>
+            <a href="">Test21</a>
+            <a href="">Test22</a>
+            <a href="">Test23</a>
+            <a href="">Test24</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About us</h2>
+            <a href="/">How it works</a>
+            <a href="">Test31</a>
+            <a href="">Test32</a>
+            <a href="">Test33</a>
+            <a href="">Test34</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>About us</h2>
+            <a href="/">How it works</a>
+            <a href="">Test41</a>
+            <a href="">Test42</a>
+            <a href="">Test43</a>
+            <a href="">Test44</a>
+          </div>
+        </div>
+      </div>
+      <div class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"
+              ><i class="fas fa-gem"></i>(blackwhite logo)</a
+            >
+          </div>
+          <p class="website__rights">©Tawin 2025. ALL rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
